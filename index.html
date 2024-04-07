@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+
+        <meta name="viewport"
+
+              content="width=device-width, initial-scale=1.0" />
+
+        <title>BMI Calculator</title>
+
+    </head>
+
+    <body>
+
+        <section id="bmi-calculator" class="page page-light">
+            <h1>BODY MASS INDEX (BMI)</h1><br />
+            <p
+              >Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.
+              Calculate your BMI to determine your goal. </p
+            ><br /><hr /><br />
+            <h1>BMI Calculator</h1>
+            <div class="sonuj">
+              <form id="bmi-form">
+                <label for="bmi-height">Your Height:</label><br />
+                <input type="text" id="bmi-height" placeholder="Centimeters" /><br />
+                <label for="bmi-weight">Your Weight:</label><br />
+                <input type="text" id="bmi-weight" placeholder="Kilograms" /><br /><br />
+                <span id="bmi-submit" class="btn btn-blue">Submit</span>
+              </form>
+      
+              <div class="list-box">
+                <h4 id="bmi-result">YOUR BMI = </h4><br />
+                <h3>BMI Categories:</h3>
+                <ul>
+                  <li>Underweight: BMI &lt; 18.5 (Gain weight)</li>
+                  <li>Normal weight: 18.5 &lt; BMI &lt; 24.9 (Maintain)</li>
+                  <li>Overweight: BMI &gt; 24.9 (Loss weight)</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <script src="script.js"></script>
+
+
+    </body>
+
+</html>
